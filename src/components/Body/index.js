@@ -11,7 +11,7 @@ const Body = () => (
         <div className="body-container">
           {showLeftNavbar ? (
             <div className="left-navbar">
-              <h1 className="body-heading-text">Left Navbar Menu</h1>
+              <h1 className="body-header-text">Left Navbar Menu</h1>
               <ul className="list-items">
                 <li className="item">Item 1</li>
                 <li className="item">Item 2</li>
@@ -21,7 +21,7 @@ const Body = () => (
             </div>
           ) : null}
           {showContent ? (
-            <div className="container">
+            <div className="content">
               <h1 className="body-header-text">Content</h1>
               <p className="content-text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -32,7 +32,7 @@ const Body = () => (
           ) : null}
           {showRightNavbar ? (
             <div className="right-navbar">
-              <h1 className="body-heading-text">Right Navbar</h1>
+              <h1 className="body-header-text">Right Navbar</h1>
               <div className="ad-box-container">
                 <p className="ad-box">Ad 1</p>
                 <p className="ad-box">Ad 2</p>
